@@ -28,10 +28,13 @@
     $email = "luis@gmail.com";
     $age = 21;
     $users = 2;
+    $total = 20.44;
 
     echo "Hello {$name} <br>";
     echo "You like {$food} <br>";
     echo "Your email is {$email} <br>";
     echo "You are {$age} years old <br>";
     echo "You have {$users} users <br>";
+
+    echo "Your total is \${$total}"
 ?>
